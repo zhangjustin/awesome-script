@@ -1,0 +1,22 @@
+[run_log]
+run_log_file = run_log
+
+[limit_table]
+table = ['china_agent_project'],  #只同步db中的表china_agent_project表
+
+[start_timestamp]
+start_time_stamp = int(time.time())-286400 #不使用
+
+[mysql]
+
+host = 192.168.222.9
+port = 3306
+user = juwai
+passwd = password
+
+
+[binlog_file]
+first_log_file = mysql-bin-changelog.349301
+
+# first_log_file = mysql-bin.000018
+

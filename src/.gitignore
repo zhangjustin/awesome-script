@@ -1,1 +1,3 @@
 *.pyc
+.dev.setting.cfg*
+run_log
